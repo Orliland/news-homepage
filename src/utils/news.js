@@ -20,6 +20,27 @@ const news = [
     thumbnail: "https://via.placeholder.com/150",
     type: "latest",
   },
+  {
+    id: crypto.randomUUID(),
+    title: "Reviving Retro PCs",
+    body: "What happens when old PCs are given modern upgrades?",
+    thumbnail: "image-retro-pcs.jpg",
+    type: "new",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "Top 10 Laptops of 2022",
+    body: "Our best picks for various needs and budgets.",
+    thumbnail: "image-top-laptops.jpg",
+    type: "new",
+  },
+  {
+    id: crypto.randomUUID(),
+    title: "The Growth of Gaming",
+    body: "How the pandemic has sparked fresh opportunities.",
+    thumbnail: "image-gaming-growth.jpg",
+    type: "new",
+  },
 ];
 
 export default news;
