@@ -5,11 +5,11 @@ import LatestNews from "./components/LatestNews";
 
 function App() {
   return (
-    <>
+    <main>
       <Cover />
       <LatestNews />
       <News />
-    </>
+    </main>
   );
 }
 
