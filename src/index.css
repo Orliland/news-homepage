@@ -9,12 +9,15 @@
   --silver: hsl(236, 8%, 79%);
   --stroke-gray: hsl(4, 13%, 42%);
   --gunmetal: hsl(237, 13%, 42%);
+  --light-vermillion: hsl(5, 85%, 63%);
 
   /* Fonts */
+  --heading-l: 800 4rem/4rem "Inter", sans-serif;
   --heading-m: 700 3.2rem/3.2rem "Inter", sans-serif;
   --heading-s: 800 2rem/2.4rem "Inter", sans-serif;
   --heading-xs: 800 1.8rem/2.4rem "Inter", sans-serif;
   --body: 400 1.5rem/2.6rem "Inter", sans-serif;
+  --button-small: 700 1.4rem/2.4rem "Inter", sans-serif;
 }
 
 body {

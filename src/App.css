@@ -1,3 +1,41 @@
+.cover__thumbnail {
+  width: 100%;
+}
+
+.cover__title {
+  margin: 0;
+
+  color: var(--dark-space-blue);
+
+  font: var(--heading-l);
+}
+
+.cover__description {
+  margin: 0;
+
+  color: var(--gunmetal);
+
+  font: var(--body);
+}
+
+.button {
+  padding: 1.2rem 3.3rem;
+  border: none;
+
+  color: var(--almost-white);
+  background-color: var(--light-vermillion);
+
+  font: var(--button-small);
+  letter-spacing: 0.438rem;
+}
+
+.button:hover {
+  color: var(--almost-white);
+  background-color: var(--dark-space-blue);
+
+  cursor: pointer;
+}
+
 .latest {
   display: flex;
   flex-direction: column;
@@ -81,7 +119,7 @@
 }
 
 .new__title:hover {
-  color: var(--yellow);
+  color: var(--light-vermillion);
 
   cursor: pointer;
 }
