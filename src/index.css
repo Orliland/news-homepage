@@ -23,3 +23,7 @@ body {
 
   font-size: 1.5rem;
 }
+
+#root {
+  padding: 0 1.6rem;
+}

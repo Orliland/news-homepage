@@ -16,6 +16,7 @@
 }
 
 .latest__split {
+  margin: 0;
   width: 100%;
   border-bottom: 1px solid var(--stroke-gray);
 }
@@ -26,6 +27,12 @@
   color: var(--almost-white);
 
   font: var(--heading-s);
+}
+
+.latest-new__title:hover {
+  color: var(--yellow);
+
+  cursor: pointer;
 }
 
 .latest-new__body {
