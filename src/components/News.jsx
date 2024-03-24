@@ -4,7 +4,7 @@ function New({ id, title, body, thumbnail }) {
   return (
     <article className="new">
       <img
-        src={`../public/images/${thumbnail}`}
+        src={`../images/${thumbnail}`}
         alt="new cover thumbnail"
         className="new__thumbnail"
       />
