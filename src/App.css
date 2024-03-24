@@ -42,3 +42,46 @@
 
   font: var(--body);
 }
+
+.news {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.new {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.new__thumbnail {
+  width: 10rem;
+}
+
+.new__id {
+  color: var(--silver);
+
+  font: var(--heading-m);
+}
+
+.new__title {
+  margin: 1.2rem 0 0.9rem;
+
+  color: var(--dark-space-blue);
+
+  font: var(--heading-xs);
+}
+
+.new__body {
+  margin: 0;
+
+  color: var(--gunmetal);
+
+  font: var(--body);
+}
+
+.new__title:hover {
+  color: var(--yellow);
+
+  cursor: pointer;
+}
