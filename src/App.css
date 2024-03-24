@@ -1,0 +1,37 @@
+.latest {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2.4rem 2rem;
+
+  background-color: var(--dark-space-blue);
+}
+
+.latest__title {
+  margin: 0 0 0.5rem;
+
+  color: var(--yellow);
+
+  font: var(--heading-m);
+}
+
+.latest__split {
+  width: 100%;
+  border-bottom: 1px solid var(--stroke-gray);
+}
+
+.latest-new__title {
+  margin: 0 0 0.8rem;
+
+  color: var(--almost-white);
+
+  font: var(--heading-s);
+}
+
+.latest-new__body {
+  margin: 0;
+
+  color: var(--silver);
+
+  font: var(--body);
+}
