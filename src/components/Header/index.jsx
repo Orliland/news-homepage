@@ -6,17 +6,37 @@ import MenuIcon from "../../assets/icon-menu.svg";
 import CloseIcon from "../../assets/icon-menu-close.svg";
 
 function Header() {
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(0);
 
   function handleOpenMenu() {
-    setShowMenu(!showMenu);
+    setShowMenu(showMenu + 1);
+  }
+
+  function menuControl() {
+    /* 
+    
+    Función creada para hacer que en el 
+    primer renderizado no se muestre la animación.
+    
+    Por defecto el estado se encuentra en 0, el cual 
+    hace que se oculte el menú, en número impares
+    el menú aparecerá y en los pares se ocultara.ß
+    */
+
+    if (showMenu == 0) {
+      return "menu--hidden";
+    } else if (showMenu % 2 == 0) {
+      return "menu--close";
+    } else {
+      return "menu--open";
+    }
   }
 
   return (
     <header className="header">
       <img src={Logo} alt="logo" className="logo" />
 
-      <ul className={`menu__links ${showMenu ? "menu--open" : "menu--close"}`}>
+      <ul className={`menu__links ${menuControl()}`}>
         <li className="menu__item">Home</li>
         <li className="menu__item">New</li>
         <li className="menu__item">Popular</li>
@@ -25,7 +45,10 @@ function Header() {
       </ul>
 
       <button className="menu__control" onClick={handleOpenMenu}>
-        <img src={showMenu ? CloseIcon : MenuIcon} alt="menu control" />
+        <img
+          src={showMenu % 2 == 0 ? MenuIcon : CloseIcon}
+          alt="menu control"
+        />
       </button>
     </header>
   );

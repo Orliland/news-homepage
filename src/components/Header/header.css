@@ -62,6 +62,10 @@ header {
     background-color: transparent;
   }
 
+  .menu--hidden {
+    display: none;
+  }
+
   .menu--open {
     display: flex;
     animation: openMenu 0.6s;
