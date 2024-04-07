@@ -2,6 +2,8 @@
 
 main {
   display: flex;
+  max-width: 77vw;
+  margin: 0 auto;
   flex-direction: column;
   gap: 6.4rem;
   padding: 0 1.6rem 8rem;

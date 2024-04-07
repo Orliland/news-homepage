@@ -80,6 +80,12 @@ header {
 @media (min-width: 550px) {
   /* Estilos para desktop */
 
+  header {
+    max-width: 77vw;
+    margin: 0 auto;
+    padding: 9rem 0 5.5rem;
+  }
+
   .menu__links {
     display: flex;
     flex-direction: row;
