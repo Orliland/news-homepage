@@ -6,7 +6,7 @@ function Cover() {
     <article className="cover">
       <picture>
         <source
-          media="(min-width: 1440px)"
+          media="(min-width: 800px)"
           srcSet={`../images/${cover.thumbnailAlt}`}
         />
         <img

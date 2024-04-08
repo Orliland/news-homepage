@@ -86,6 +86,10 @@ header {
     padding: 9rem 0 5.5rem;
   }
 
+  .logo {
+    height: 4rem;
+  }
+
   .menu__links {
     display: flex;
     flex-direction: row;

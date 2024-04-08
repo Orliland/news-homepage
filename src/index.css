@@ -13,6 +13,7 @@
   --light-vermillion: hsl(5, 85%, 63%);
 
   /* Fonts */
+  --heading-xl: 800 5.6rem/5.6rem "Inter", sans-serif;
   --heading-l: 800 4rem/4rem "Inter", sans-serif;
   --heading-m: 700 3.2rem/3.2rem "Inter", sans-serif;
   --heading-s: 800 2rem/2.4rem "Inter", sans-serif;
