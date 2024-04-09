@@ -28,9 +28,7 @@ Users should be able to:
 
 ### Links
 
-<!-- TODO: Añadir codigo del live view de cloudflare -->
-
-- Solution URL: [Live View](https://your-solution-url.com)
+- Solution URL: [Live View](https://news-homepage-90m.pages.dev/)
 - Live Site URL: [Add live site URL here](https://github.com/Orliland/news-homepage)
 
 ## My process
